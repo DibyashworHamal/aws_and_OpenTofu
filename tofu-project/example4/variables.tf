@@ -3,3 +3,6 @@ variable "AMI_ID" {
   type        = string
   description = "The ami id"
 }
+variable "USER" {
+  default = "ubuntu"
+}
